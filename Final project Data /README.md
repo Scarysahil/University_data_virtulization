@@ -6,7 +6,7 @@ companies (2001–2025), connected to US macroeconomic conditions
 (GDP growth, unemployment).
 
 ## 🔗 Live Dashboard
-[Add your Streamlit Community Cloud URL here after deployment]
+https://tech-employment-viz-93r5rgmd5siqepylaaynzq.streamlit.app/
 
 ## 📁 Repo Contents
 - `app.py` — Streamlit dashboard (interactive, curated subset of the analysis)
@@ -14,7 +14,6 @@ companies (2001–2025), connected to US macroeconomic conditions
 - `tech_employment_2000_2025.csv` — dataset
 - `tech_employment_analysis.ipynb` — full analysis notebook (10 analytical
   questions, each with a Plotly visualization)
-- `tech_employment_analysis.html` — HTML export of the notebook
 
 ## 📊 Key Questions Explored
 1. How do layoffs relate to US GDP growth and unemployment?
@@ -34,7 +33,3 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## 🎨 Design Notes
-- CVD-safe color palette used throughout (muted grey for context, blue/orange/green for highlights)
-- Plotly only, per course requirements
-- Titles state the takeaway, not just the variables plotted
